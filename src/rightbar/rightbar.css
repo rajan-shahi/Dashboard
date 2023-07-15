@@ -1,0 +1,36 @@
+.rightBar-components{
+    background-color: gray;
+    height: 90vh;
+}
+
+.rightnavbnar{
+    background-color: coral;
+    height: 10vh;
+}
+
+.rightnavbnar-container{
+    background-color: springgreen;
+    height: 70vh;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 2px solid green;
+    
+    
+
+}
+
+.rightnavrbar-home-containtre{
+    background-color: green;
+    height: 5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.rightBar-All-container{
+    background-color: hsl(0, 40%, 60%);
+    margin: 10px 10px;
+    height: 62vh;
+}
