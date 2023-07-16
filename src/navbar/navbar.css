@@ -1,5 +1,19 @@
-.navbar-componetns{
-    background-color: hsl(240, 100%, 50%);
-    height: 10vh;
-    width: 100%;
+.navbar-componetns {
+  background-color: hsl(240, 100%, 50%);
+  height: 10vh;
+  width: 100%;
+  display: flex;
 }
+
+.narbar-rightcomponents {
+  background-color: green;
+  width: 230px;
+  text-align: center;
+  height: 10vh;
+}
+
+.narbar-rightcomponents span {
+  color: white;
+  font-size: 25px;
+}
+
