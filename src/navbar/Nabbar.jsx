@@ -12,9 +12,9 @@ export default function Nabbar() {
 
         <div className="right">
           <div className="homebar">
-            <span className="1"></span>
-            <span className="2"></span>
-            <span className="3"></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         </div>
 
