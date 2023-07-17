@@ -1,0 +1,15 @@
+.card-container {
+background-color: rgb(87, 200, 87);
+  margin-top: 35px;
+  height: 15vh;
+  width: 180px;
+  margin-left: 40px;
+}
+
+.card-container p {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}

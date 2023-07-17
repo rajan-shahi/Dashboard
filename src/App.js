@@ -6,7 +6,7 @@ import Rightbar from './rightbar/Rightbar';
 
 function App() {
   return (
-    <div>
+    <div className='all page'>
     <Nabbar/>
     <div className='homepage'>
     <span className='leftbarpage'>

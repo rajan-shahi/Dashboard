@@ -1,3 +1,7 @@
+ .all page{
+  height: 100vh;
+ }
+ 
 .homepage{
   display: flex;
 }
