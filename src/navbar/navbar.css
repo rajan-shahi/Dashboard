@@ -3,6 +3,7 @@
   height: 10vh;
   width: 100%;
   display: flex;
+ 
 }
 
 .narbar-rightcomponents {
@@ -10,11 +11,13 @@
   width: 232px;
   text-align: center;
   height: 10vh;
+  cursor: pointer;
 }
 
 .narbar-rightcomponents span {
   color: white;
   font-size: 25px;
+ 
 }
 
 .homebar {
@@ -27,6 +30,7 @@
   margin-top: 15px;
   margin-left: 10px;
 }
+
 
 .homebar span {
   width: 100%;

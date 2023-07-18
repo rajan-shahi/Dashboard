@@ -1,78 +1,65 @@
-.leftBar-components{
- background-color: darkslategray;
-    height: 90vh;
- 
+.leftBar-components {
+  background-color: darkslategray;
+  height: 90vh;
 }
 
+.firstimg {
+  height: 35px;
+  width: 30px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-top: 15px;
+  object-fit: cover;
+  opacity: 0.7;
+}
+.topbar {
+  display: flex;
+  text-align: center;
+  color: whitesmoke;
+  cursor: pointer;
+}
 
-.firstimg{
-    height: 35px;
-    width: 30px;
-    border-radius: 30px;
-    object-fit: cover;
-    margin-left: 10px;
-    margin-top: 15px;
-    object-fit: cover;
-   opacity: 0.7;
+.topreact-dashboard {
+  margin-left: 15px;
+}
+
+.account {
+  margin-top: 20px;
+  margin-left: 5px;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.react-icondshboard {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  height: 5vh;
+}
+
+.react-icondshboard span {
+  margin: 4px;
+}
+
+.all-react-icon {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
 
 }
- .topbar{
-    display: flex;
-    text-align: center;
-    color: whitesmoke;
-    
-   
- }
 
- .topreact-dashboard{
-    margin-left: 15px;
- }
+.all-react-icon span {
+  display: flex;
+  margin-left: 5px;
+}
 
- .account{
-    margin-top: 20px;
-    margin-left: 5px;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 20px;
- }
-
- .react-icondshboard{
-    background-color: black;
-    color: white;
-    margin-top: 20px;
-    height: 5vh;
-    
- }
-
- .react-icondshboard span{
-    margin: 4px;
-    
- }
-
-
- .all-react-icon{
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
- 
-   
-    
- }
-
-
- .all-react-icon span{
-    display: flex;
-    margin-left: 5px;
-   
-   
- }
-
- .react-icon{
-    display: flex;
-    margin: 5px;
-    margin-top: 20px;
-    color: whitesmoke;
-    
-    
- }
+.react-icon {
+  display: flex;
+  margin: 5px;
+  margin-top: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+}
