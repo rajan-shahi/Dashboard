@@ -1,6 +1,7 @@
 .leftBar-components{
  background-color: darkslategray;
     height: 90vh;
+ 
 }
 
 
@@ -11,6 +12,9 @@
     object-fit: cover;
     margin-left: 10px;
     margin-top: 15px;
+    object-fit: cover;
+   opacity: 0.7;
+
 }
  .topbar{
     display: flex;
