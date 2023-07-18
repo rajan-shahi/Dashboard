@@ -17,26 +17,24 @@ export default function Rightbar() {
       </div>
       <div className="rightnavbnar-container">
         <div className="container2">
-          <Cards/>
-          <Cards/>
-          <Cards/>
-          <Cards/>
-          
+          <Cards name="My Profile" />
+          <Cards name="Student Manager" />
+          <Cards name="Class Manager" />
+          <Cards name="Subject Manager" />
         </div>
 
         <div className="container2">
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
+          <Cards name="Result Manager" />
+          <Cards name="Fee Manager" />
+          <Cards name="Staff Manager" />
+          <Cards name="View Users" />
         </div>
 
-        
         <div className="container2">
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
+          <Cards name="Print Slip" />
+          <Cards name="Calendar" />
+          <Cards name="Reset Password" />
+          <Cards name="Mails" />
         </div>
       </div>
     </div>

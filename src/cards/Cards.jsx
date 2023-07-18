@@ -1,11 +1,12 @@
 import React from 'react'
 import "./card.css"
 
-export default function Cards() {
+export default function Cards({name}) {
   return (
     <div>
       <div className="card-container">
-        <p>My Profile</p>
+        <p>{name}</p>
+   
       </div>
     </div>
   )
