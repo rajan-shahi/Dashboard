@@ -19,3 +19,13 @@
   padding: 10px;
   font-size: 20px;
 }
+
+
+.card-container span{
+  text-align: center;
+  justify-content: center;
+  color: blue;
+}
+
+
+

@@ -2,6 +2,7 @@ import React from "react";
 import "./rightbar.css";
 import { BiLaptop } from "react-icons/bi";
 import Cards from "../cards/Cards";
+import { AiOutlineSearch } from "react-icons/ai";
 
 export default function Rightbar() {
   return (
@@ -13,9 +14,17 @@ export default function Rightbar() {
           </span>
           <span>fee Management</span>
           <h5>fee Payment</h5>
+          <div className="searchbar">
+          <span className="search-icon">
+            <AiOutlineSearch />
+          </span>
+          <input placeholder="Search,For Here" className="searchname"></input>
+        </div>
         </div>
       </div>
+
       <div className="rightnavbnar-container">
+       
         <div className="container2">
           <Cards name="My Profile" />
           <Cards name="Student Manager" />
