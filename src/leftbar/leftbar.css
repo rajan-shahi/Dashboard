@@ -63,3 +63,7 @@
   color: whitesmoke;
   cursor: pointer;
 }
+
+.react-name{
+  font-size: 14px;
+}

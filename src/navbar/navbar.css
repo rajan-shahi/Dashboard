@@ -1,5 +1,5 @@
 .navbar-componetns {
- background-color: rgba(19, 128, 0, 0.641);
+  background-color: rgb(52, 83, 140);
   height: 10vh;
   width: 100%;
   display: flex;
@@ -7,7 +7,7 @@
 }
 
 .narbar-rightcomponents {
-  background-color: green;
+ background-color: rgb(37, 170, 75);
   width: 232px;
   text-align: center;
   height: 10vh;

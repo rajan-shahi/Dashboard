@@ -22,7 +22,7 @@ export default function Leftbar() {
         <div className="react-icondshboard">
           <div className="topreact-dashboard">
             <AiFillDashboard />
-            <span>Dashboard</span>
+            <span className="react-name">Dashboard</span>
           </div>
         </div>
 
@@ -31,56 +31,56 @@ export default function Leftbar() {
             <span>
               <BsFillChatHeartFill />
             </span>
-            <span>Portal Request</span>
+            <span  className="react-name">Portal Request</span>
           </div>
 
           <div className="react-icon">
             <span>
               <CgProfile />
             </span>
-            <span>Profile</span>
+            <span  className="react-name">Profile</span>
           </div>
 
           <div className="react-icon">
             <span>
               <AiOutlineLaptop />
             </span>
-            <span>Administrative manager</span>
+            <span  className="react-name">Administrative manager</span>
           </div>
 
           <div className="react-icon">
             <span>
               <BsLaptop />
             </span>
-            <span>Student Management</span>
+            <span  className="react-name">Student Management</span>
           </div>
 
           <div className="react-icon">
             <span>
               <FcAlarmClock />
             </span>
-            <span>Class Attendance</span>
+            <span  className="react-name">Class Attendance</span>
           </div>
 
           <div className="react-icon">
             <span>
               <AiFillEye />
             </span>
-            <span>View Attendance Record</span>
+            <span  className="react-name">View Attendance Record</span>
           </div>
 
           <div className="react-icon">
             <span>
               <BsBook />
             </span>
-            <span>Subject Management</span>
+            <span  className="react-name">Subject Management</span>
           </div>
 
           <div className="react-icon">
             <span>
               <BsFillJournalBookmarkFill />
             </span>
-            <span>Result Management</span>
+            <span  className="react-name">Result Management</span>
           </div>
         </div>
       </div>

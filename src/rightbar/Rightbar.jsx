@@ -15,16 +15,15 @@ export default function Rightbar() {
           <span>fee Management</span>
           <h5>fee Payment</h5>
           <div className="searchbar">
-          <span className="search-icon">
-            <AiOutlineSearch />
-          </span>
-          <input placeholder="Search,For Here" className="searchname"></input>
-        </div>
+            <span className="search-icon">
+              <AiOutlineSearch />
+            </span>
+            <input placeholder="Search,For Here" className="searchname"></input>
+          </div>
         </div>
       </div>
 
       <div className="rightnavbnar-container">
-       
         <div className="container2">
           <Cards name="My Profile" />
           <Cards name="Student Manager" />
@@ -45,6 +44,7 @@ export default function Rightbar() {
           <Cards name="Reset Password" />
           <Cards name="Mails" />
         </div>
+        <button className="last-btn">More About</button>
       </div>
     </div>
   );
